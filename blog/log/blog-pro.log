@@ -1,0 +1,49 @@
+2020-02-11 13:19:23.544  INFO 13760 --- [restartedMain] com.zl.BlogApplication                   : Starting BlogApplication on LAPTOP-273GH63B with PID 13760 (started by 银 in D:\IdeaProjects\项目实战\blog)
+2020-02-11 13:19:23.552  INFO 13760 --- [restartedMain] com.zl.BlogApplication                   : The following profiles are active: pro
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogMapper' and 'com.zl.mapper.BlogMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogTagMapper' and 'com.zl.mapper.BlogTagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.zl.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'tagMapper' and 'com.zl.mapper.TagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'typeMapper' and 'com.zl.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zl.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.143  WARN 13760 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zl]' package. Please check your configuration.
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogMapper' and 'com.zl.mapper.BlogMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogTagMapper' and 'com.zl.mapper.BlogTagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.zl.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'tagMapper' and 'com.zl.mapper.TagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'typeMapper' and 'com.zl.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zl.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:19:24.266  WARN 13760 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zl]' package. Please check your configuration.
+2020-02-11 13:19:26.135  INFO 13760 --- [restartedMain] com.zl.BlogApplication                   : Started BlogApplication in 3.062 seconds (JVM running for 4.573)
+2020-02-11 13:19:56.289  INFO 13760 --- [http-nio-80-exec-1] com.zl.aspect.LogAspect                  : Request : RequestLog{url='http://localhost/', ip='0:0:0:0:0:0:0:1', classMethod='com.zl.controller.IndexController.indexPage', args=[1, 4, {}]}
+2020-02-11 13:19:58.526  INFO 13760 --- [http-nio-80-exec-1] com.zl.aspect.LogAspect                  : -----doAfter----
+2020-02-11 13:19:58.526  INFO 13760 --- [http-nio-80-exec-1] com.zl.aspect.LogAspect                  : Result : index
+2020-02-11 13:19:59.195  INFO 13760 --- [http-nio-80-exec-3] com.zl.aspect.LogAspect                  : Request : RequestLog{url='http://localhost/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zl.controller.IndexController.newBlogs', args=[{}]}
+2020-02-11 13:19:59.367  INFO 13760 --- [http-nio-80-exec-3] com.zl.aspect.LogAspect                  : -----doAfter----
+2020-02-11 13:19:59.367  INFO 13760 --- [http-nio-80-exec-3] com.zl.aspect.LogAspect                  : Result : _fragments :: newBlogList
+2020-02-11 13:19:59.914  INFO 13760 --- [http-nio-80-exec-2] com.zl.aspect.LogAspect                  : Request : RequestLog{url='http://localhost/blog', ip='0:0:0:0:0:0:0:1', classMethod='com.zl.controller.IndexController.showblog', args=[12, {}]}
+2020-02-11 13:20:00.453  INFO 13760 --- [http-nio-80-exec-2] com.zl.aspect.LogAspect                  : -----doAfter----
+2020-02-11 13:20:00.453  INFO 13760 --- [http-nio-80-exec-2] com.zl.aspect.LogAspect                  : Result : /blog
+2020-02-11 13:20:00.945  INFO 13760 --- [http-nio-80-exec-6] com.zl.aspect.LogAspect                  : Request : RequestLog{url='http://localhost/footer/newBlog', ip='0:0:0:0:0:0:0:1', classMethod='com.zl.controller.IndexController.newBlogs', args=[{}]}
+2020-02-11 13:20:01.079  INFO 13760 --- [http-nio-80-exec-6] com.zl.aspect.LogAspect                  : -----doAfter----
+2020-02-11 13:20:01.079  INFO 13760 --- [http-nio-80-exec-6] com.zl.aspect.LogAspect                  : Result : _fragments :: newBlogList
+2020-02-11 13:20:01.131  INFO 13760 --- [http-nio-80-exec-5] com.zl.aspect.LogAspect                  : Request : RequestLog{url='http://localhost/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.zl.controller.CommentController.comments', args=[12, {}]}
+2020-02-11 13:20:01.269  INFO 13760 --- [http-nio-80-exec-5] com.zl.aspect.LogAspect                  : -----doAfter----
+2020-02-11 13:20:01.269  INFO 13760 --- [http-nio-80-exec-5] com.zl.aspect.LogAspect                  : Result : blog :: commentList
+2020-02-11 13:52:09.775  INFO 10568 --- [main] com.zl.BlogApplicationTests              : Starting BlogApplicationTests on LAPTOP-273GH63B with PID 10568 (started by �� in D:\IdeaProjects\��Ŀʵս\blog)
+2020-02-11 13:52:09.779  INFO 10568 --- [main] com.zl.BlogApplicationTests              : The following profiles are active: pro
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogMapper' and 'com.zl.mapper.BlogMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogTagMapper' and 'com.zl.mapper.BlogTagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.zl.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'tagMapper' and 'com.zl.mapper.TagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'typeMapper' and 'com.zl.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zl.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.435  WARN 10568 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zl]' package. Please check your configuration.
+2020-02-11 13:52:10.570  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogMapper' and 'com.zl.mapper.BlogMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.574  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'blogTagMapper' and 'com.zl.mapper.BlogTagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.574  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.zl.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.574  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'tagMapper' and 'com.zl.mapper.TagMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.574  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'typeMapper' and 'com.zl.mapper.TypeMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.574  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.zl.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-02-11 13:52:10.574  WARN 10568 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zl]' package. Please check your configuration.
+2020-02-11 13:52:12.980  INFO 10568 --- [main] com.zl.BlogApplicationTests              : Started BlogApplicationTests in 3.606 seconds (JVM running for 4.489)

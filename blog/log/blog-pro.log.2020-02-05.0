@@ -1,0 +1,5 @@
+2020-02-05 22:17:30.633  INFO 12980 --- [restartedMain] com.zl.BlogApplication                   : Starting BlogApplication on LAPTOP-273GH63B with PID 12980 (started by 银 in D:\IdeaProjects\项目实战\blog)
+2020-02-05 22:17:30.636  INFO 12980 --- [restartedMain] com.zl.BlogApplication                   : The following profiles are active: pro
+2020-02-05 22:17:31.153  WARN 12980 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zl]' package. Please check your configuration.
+2020-02-05 22:17:31.276  WARN 12980 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zl]' package. Please check your configuration.
+2020-02-05 22:17:32.148  INFO 12980 --- [restartedMain] com.zl.BlogApplication                   : Started BlogApplication in 2.024 seconds (JVM running for 3.321)

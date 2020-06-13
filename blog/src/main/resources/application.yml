@@ -1,0 +1,9 @@
+# thymeleaf配置
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: pro
+
+comment.avatar: /images/avatar.png
+
